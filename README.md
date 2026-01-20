@@ -9,40 +9,33 @@
 ## Instructions
 
 ### Running the Training Interface
+1. **Clone the repo**
+   ```bash
+   git clone https://github.com/codewithhippo17/netPractice.git
+   ```
+3.  **Extract the Project:**
+    Locate the `net_practice.1.8.tgz` file and extract it:
+    ```bash
+    tar -xvf net_practice.1.8.tgz
+    ```
 
-1. Download or clone the netPractice training interface (typically provided by 42)
-2. Open the `index.html` file in your web browser
-3. Navigate through levels 1-10, configuring network settings as required
-4. Each level presents a network diagram with configurable fields (IP addresses, subnet masks, routes)
+4.  **Restore Configurations:**
+    Move your existing level configuration files (`level1.json` to `level10.json`) into the newly extracted directory:
+    ```bash
+    mv level*.json net_practice/
+    ```
 
-### Exporting Configurations
+5.  **Start the Local Server:**
+    Enter the directory and launch the Python HTTP server (this will open on port 8000):
+    ```bash
+    cd net_practice
+    python3 -m http.server
+    ```
 
-1. After successfully completing each level, **export** the configuration
-2. Save the exported JSON file with the naming format: `levelX.json` (where X = 1 to 10)
-3. Place all exported configuration files in the root of your Git repository
+6.  **Access the Interface:**
+    Open your web browser and navigate to `http://localhost:8000`.
+    * **Browser Warning:** Use **Google Chrome** or a Chromium-based browser. Firefox is known to block this tool.
 
-### Submission Requirements
-
-- ✅ Complete all 10 levels
-- ✅ Export 10 configuration files: `level1.json`, `level2.json`, ..., `level10.json`
-- ✅ Place all configuration files at the **repository root**
-- ✅ Include this README.md with proper documentation
-- ✅ Push everything to your Git repository for evaluation
-
-**Files required at repository root:**
-```
-level1.json
-level2.json
-level3.json
-level4.json
-level5.json
-level6.json
-level7.json
-level8.json
-level9.json
-level10.json
-README.md
-```
 
 ---
 
