@@ -1,15 +1,104 @@
-# 🌐 Network Basics - Interactive Documentation Explorer
+*This project has been created as part of the 42 curriculum by codewithhippo17.*
 
-> *A comprehensive guide to networking fundamentals from the 42 curriculum*
+## Description
 
-Welcome to the **netPractice** documentation! This interactive guide breaks down networking concepts into digestible topics, making it easier to understand how data flows across networks and the protocols that make it all possible.
+**netPractice** is a hands-on networking fundamentals project from the 42 curriculum. The goal is to configure small-scale networks and understand how TCP/IP addressing works in practice. Through 10 progressive levels, you'll master essential networking concepts including IP addressing, subnet masks, default gateways, routing, and network segmentation.
+
+This project provides a browser-based training interface where you configure network topologies, assign IP addresses, and set up routing rules. Each level increases in complexity, challenging you to apply networking principles to solve real-world connectivity problems.
+
+By completing this project, you'll gain practical understanding of how data flows through networks, how devices communicate within and across networks, and how network engineers design and troubleshoot IP networks.
 
 ---
 
-## 📖 Table of Contents
+## Instructions
+
+### Running the Training Interface
+
+1. Download or clone the netPractice training interface (typically provided by 42)
+2. Open the `index.html` file in your web browser
+3. Navigate through levels 1-10, configuring network settings as required
+4. Each level presents a network diagram with configurable fields (IP addresses, subnet masks, routes)
+
+### Exporting Configurations
+
+1. After successfully completing each level, **export** the configuration
+2. Save the exported JSON file with the naming format: `levelX.json` (where X = 1 to 10)
+3. Place all exported configuration files in the root of your Git repository
+
+### Submission Requirements
+
+- ✅ Complete all 10 levels
+- ✅ Export 10 configuration files: `level1.json`, `level2.json`, ..., `level10.json`
+- ✅ Place all configuration files at the **repository root**
+- ✅ Include this README.md with proper documentation
+- ✅ Push everything to your Git repository for evaluation
+
+**Files required at repository root:**
+```
+level1.json
+level2.json
+level3.json
+level4.json
+level5.json
+level6.json
+level7.json
+level8.json
+level9.json
+level10.json
+README.md
+```
+
+---
+
+## Resources
+
+### Networking Concepts Studied
+
+This project covers the following core networking concepts:
+
+- **TCP/IP Addressing**: Understanding IPv4 address structure, network and host portions
+- **Subnet Mask**: Calculating network boundaries, subnet division, and CIDR notation
+- **Default Gateway**: Configuring routers as gateways for inter-network communication
+- **Routers**: Routing tables, static routes, and packet forwarding decisions
+- **Switches**: Layer 2 switching and local network connectivity
+- **OSI Layers**: Focus on Layer 2 (Data Link), Layer 3 (Network), and Layer 4 (Transport)
+- **Network Segmentation**: VLANs and logical network separation
+- **ARP and DHCP**: Address resolution and dynamic IP configuration
+- **DNS**: Domain name resolution
+- **NAT**: Network Address Translation for internet connectivity
+
+### Classic References
+
+- [VLANs Video Tutorial](https://www.youtube.com/watch?v=Pm46mFfrK5g&list=PLHh55M_Kq4OCZOAxs2KZyCawhX38YR154&index=2)
+- [VLAN Basics - Thomas Krenn](https://www.thomas-krenn.com/en/wiki/VLAN_Basics)
+- [OSI Model - GeeksforGeeks](https://www.geeksforgeeks.org/computer-networks/open-systems-interconnection-model-osi/)
+- [TCP/IP Part 1 Video](https://www.youtube.com/watch?v=gYmqYHlQWT4&list=PLHh55M_Kq4OCZOAxs2KZyCawhX38YR154&index=7)
+- [TCP/IP Part 2 Video](https://www.youtube.com/watch?v=N9DzIK-eeBk&list=PLHh55M_Kq4OCZOAxs2KZyCawhX38YR154&index=8)
+- [Subnet Mask Calculator](https://www.calculator.net/ip-subnet-calculator.html)
+- [IPv4 Subnetting - Cisco Documentation](https://www.cisco.com/c/en/us/support/docs/ip/routing-information-protocol-rip/13788-3.html)
+
+### AI Usage Disclosure
+
+**AI tools were used in this project for the following purposes:**
+
+- **Documentation Structure**: AI (GitHub Copilot, ChatGPT) was used to organize and structure the comprehensive networking documentation found in the `/docs` folder
+- **Concept Explanations**: AI assisted in creating clear, beginner-friendly explanations of complex networking concepts (OSI model, TCP/UDP, routing)
+- **Markdown Formatting**: AI helped format documentation with proper markdown syntax, tables, and navigation links
+- **README Creation**: AI assisted in drafting this README to meet 42 curriculum requirements
+
+**Parts completed without AI:**
+
+- **Network Configurations**: All 10 level configurations (level1.json - level10.json) were solved manually by understanding and applying networking principles
+- **Problem Solving**: Each network topology puzzle was analyzed and configured independently
+- **Technical Learning**: Core networking concepts were learned through hands-on practice and referenced materials
+
+---
+
+## 📖 Documentation
+
+This repository includes comprehensive documentation on networking fundamentals. Explore the topics below to deepen your understanding:
 
 ### 🔰 Network Fundamentals
-Explore the foundational concepts of networking:
 
 1. **[Physical vs Logical Addressing](./docs/physical-vs-logical-addressing.md)** 🏷️  
    Understanding MAC addresses, IP addresses, and subnet masks
@@ -29,10 +118,7 @@ Explore the foundational concepts of networking:
 6. **[VLANs (Virtual LANs)](./docs/vlans.md)** 🔐  
    Network segmentation and security
 
----
-
 ### 📦 OSI Model & Packet Anatomy
-Deep dive into how data is packaged and transmitted:
 
 7. **[OSI Model Overview](./docs/osi-model-overview.md)** 📊  
    How data flows through the 7-layer OSI model
@@ -46,19 +132,16 @@ Deep dive into how data is packaged and transmitted:
 10. **[Network Packet Anatomy](./docs/network-packet-anatomy.md)** 📮  
     Inside look at how packets are structured
 
----
-
 ### 🚀 Transport Layer Protocols
-Understanding reliable and unreliable data transmission:
 
 11. **[TCP vs UDP](./docs/tcp-vs-udp.md)** ⚡  
-    Comparing reliable and unreliable transport protocols
+   Comparing reliable and unreliable transport protocols
 
 12. **[TCP Connection Lifecycle](./docs/tcp-connection-lifecycle.md)** 🔄  
-    Three-way handshake, connection states, and termination
+   Three-way handshake, connection states, and termination
 
 13. **[Protocols Reference](./docs/protocols-reference.md)** 📚  
-    Complete table of protocols used across OSI layers
+   Complete table of protocols used across OSI layers
 
 ---
 
@@ -72,24 +155,6 @@ Understanding reliable and unreliable data transmission:
 | **Security** | VLANs, network segmentation |
 | **OSI Model** | 7 layers of network communication |
 | **Protocols** | TCP, UDP, HTTP, FTP, SSH, and more |
-
----
-
-## 🎓 About This Project
-
-This project has been created as part of the 42 curriculum by **ehamza**.
-
-The documentation is organized to facilitate learning and quick reference. Each topic is self-contained but links to related concepts for deeper understanding.
-
----
-
-## 📚 References
-
-- [VLANs Video](https://www.youtube.com/watch?v=Pm46mFfrK5g&list=PLHh55M_Kq4OCZOAxs2KZyCawhX38YR154&index=2)
-- [VLAN Basics](https://www.thomas-krenn.com/en/wiki/VLAN_Basics)
-- [OSI Model](https://www.geeksforgeeks.org/computer-networks/open-systems-interconnection-model-osi/?utm_source=copilot.com)
-- [TCP/IP Part 1](https://www.youtube.com/watch?v=gYmqYHlQWT4&list=PLHh55M_Kq4OCZOAxs2KZyCawhX38YR154&index=7)
-- [TCP/IP Part 2](https://www.youtube.com/watch?v=N9DzIK-eeBk&list=PLHh55M_Kq4OCZOAxs2KZyCawhX38YR154&index=8)
 
 ---
 
