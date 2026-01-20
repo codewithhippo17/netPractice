@@ -96,15 +96,14 @@ The[Presentation Layer](https://www.geeksforgeeks.org/computer-networks/presenta
     - ****Compression:**** Reduces the number of bits that need to be transmitted on the network.
 
 ---
-### 3. Session layer 
+### 3. Session layer 
 
 [Session Layer](https://www.geeksforgeeks.org/computer-networks/session-layer-in-osi-model/) in the OSI Model is responsible for the establishment of connections, management of connections, terminations of sessions between two devices. It also provides authentication and security. Protocols used in the Session Layer are NetBIOS, PPTP.
 
 - #### Functions of the Session Layer
-    - ****Session Establishment, Maintenance, and Termination:**** The layer allows the two processes to establish, use, and terminate a connection.
-    - ****Synchronization:**** This layer allows a process to add checkpoints that are considered synchronization points in the data. These synchronization points help to identify the error so that the data is re-synchronized properly, and ends of the messages are not cut prematurely, and data loss is avoided.
-    - ****Dialog Controller:**** The session layer allows two systems to start communication with each other in half-duplex or full duplex.
----
+	- ****Session Establishment, Maintenance, and Termination:**** The layer allows the two processes to establish, use, and terminate a connection.
+	- ****Synchronization:**** This layer allows a process to add checkpoints that are considered synchronization points in the data. These synchronization points help to identify the error so that the data is re-synchronized properly, and ends of the messages are not cut prematurely, and data loss is avoided.
+	- ****Dialog Controller:**** The session layer allows two systems to start communication with each other in half-duplex or full duplex.
 ### 4. Inside a Network Packet
 In this diagram, I explain the anatomy of network packets by breaking down how data is encapsulated as it moves through the network stack, showing the role of headers, addresses, flags, and control fields at each layer, and how switches and routers use this information to forward, filter, or discard packets during transmission.
 
