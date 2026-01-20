@@ -101,7 +101,7 @@ The[Presentation Layer](https://www.geeksforgeeks.org/computer-networks/presenta
 [Session Layer](https://www.geeksforgeeks.org/computer-networks/session-layer-in-osi-model/) in the OSI Model is responsible for the establishment of connections, management of connections, terminations of sessions between two devices. It also provides authentication and security. Protocols used in the Session Layer are NetBIOS, PPTP.
 
 - #### Functions of the Session Layer
-    - ****Session Establishment, Maintenance, and Termination:**** The layer allows the two processes to establish, use, and terminate a connection.
+    - **Session Establishment, Maintenance, and Termination:**The layer allows the two processes to establish, use, and terminate a connection.
     - ****Synchronization:**** This layer allows a process to add checkpoints that are considered synchronization points in the data. These synchronization points help to identify the error so that the data is re-synchronized properly, and ends of the messages are not cut prematurely, and data loss is avoided.
     - ****Dialog Controller:**** The session layer allows two systems to start communication with each other in half-duplex or full duplex.
 ---
