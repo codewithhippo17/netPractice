@@ -77,7 +77,7 @@ The following table outlines widely used Application Layer protocols, associatin
 - #### HTTP
 You can see that HTTP is **a client-server, request-response** protocol. A web browser sends a request like `GET` or `POST`. The server answers with a status code and the web page content.
 
-![HTTP](attchements/HTTP.png)
+![HTTP](attchements/how-does-http-work.svg)
 
 Here’s what happens in more detail:
 - **Request (GET):** Your web browser sends an HTTP message to the web server. The message includes an HTTP header that says, *“GET /home.html.”* If no file name is given, the server assumes you want the default page.
