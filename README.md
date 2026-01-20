@@ -2,11 +2,7 @@
 
 ## Description
 
-**netPractice** is a hands-on networking fundamentals project from the 42 curriculum. The goal is to configure small-scale networks and understand how TCP/IP addressing works in practice. Through 10 progressive levels, you'll master essential networking concepts including IP addressing, subnet masks, default gateways, routing, and network segmentation.
-
-This project provides a browser-based training interface where you configure network topologies, assign IP addresses, and set up routing rules. Each level increases in complexity, challenging you to apply networking principles to solve real-world connectivity problems.
-
-By completing this project, you'll gain practical understanding of how data flows through networks, how devices communicate within and across networks, and how network engineers design and troubleshoot IP networks.
+**netPractice** is a 42 curriculum project for learning networking fundamentals. Across 10 levels, you configure networks, assign IPs, set subnet masks, and manage routing. The browser-based interface simulates real network topologies, helping you understand how data flows, how devices communicate, and how networks are designed and troubleshooted.
 
 ---
 
