@@ -1,6 +1,6 @@
 # Application Layer
 
-The Application Layer sits at the very top of the OSI model, acting as the primary window for users and application services to access the network. Implemented by network applications, this layer is responsible for producing the data to be transferred and displaying the received information back to the user. It is important to note that software applications, such as web browsers, do not reside in this layer themselves; instead, they leverage Application Layer protocols—like **Http**, **SMTP**, **FTP**, and **DNS**—to enable the actual network communication.
+The Application Layer sits at the very top of the OSI model, acting as the primary window for users and application services to access the network. Implemented by network applications, this layer is responsible for producing the data to be transferred and displaying the received information back to the user. It is important to note that software applications, such as web browsers, do not reside in this layer themselves; instead, they leverage Application Layer protocols like **Http**, **SMTP**, **FTP**, and **DNS** to enable the actual network communication.
 
 ## Standard Ports and Services
 The following table outlines widely used Application Layer protocols, associating them with their designated port numbers and primary networking functions.
