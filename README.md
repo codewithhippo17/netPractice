@@ -29,7 +29,7 @@ The **router**, also called the **default gateway**, forwards traffic that leave
 
 Through **NAT (masquerading)**, the router replaces the devices’ private IPs with its public IP when sending traffic to the internet. Responses return to the router, which then delivers them to the correct device. Most of the router’s configuration is handled by the **ISP**, keeping the process simple for the user.
 
-![[Pasted image 20260120022754.png]]
+![Network Basics](attchements/NetBasics.png)
 
 #### VLANs (Virtual Local Area Networks)
 
