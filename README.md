@@ -9,29 +9,30 @@ This project provides a browser-based training interface where you configure net
 By completing this project, you'll gain practical understanding of how data flows through networks, how devices communicate within and across networks, and how network engineers design and troubleshoot IP networks.
 
 ---
+Instructions
+Running the Interface
 
-## Instructions
+Open index.html in your web browser.
 
-### Running the Training Interface
+Complete levels 1–10 by configuring network parameters (IP addresses, subnet masks, routes).
 
-1. Download or clone the netPractice training interface (typically provided by 42)
-2. Open the `index.html` file in your web browser
-3. Navigate through levels 1-10, configuring network settings as required
-4. Each level presents a network diagram with configurable fields (IP addresses, subnet masks, routes)
+Exporting Configurations
 
-### Exporting Configurations
+After each level, click “Get my config” to export the configuration.
 
-1. After successfully completing each level, **export** the configuration
-2. Save the exported JSON file with the naming format: `levelX.json` (where X = 1 to 10)
-3. Place all exported configuration files in the root of your Git repository
+Save each file as levelX.json (X = 1–10).
 
-### Submission Requirements
+Place all JSON files at the root of your repository.
 
-- ✅ Complete all 10 levels
-- ✅ Export 10 configuration files: `level1.json`, `level2.json`, ..., `level10.json`
-- ✅ Place all configuration files at the **repository root**
-- ✅ Include this README.md with proper documentation
-- ✅ Push everything to your Git repository for evaluation
+Submission
+
+✅ Complete all 10 levels
+
+✅ Include 10 exported JSON files (level1.json → level10.json) in the repo root
+
+✅ Include this README.md
+
+✅ Push everything to your Git repository
 
 **Files required at repository root:**
 ```
