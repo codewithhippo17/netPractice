@@ -81,17 +81,9 @@ This project covers the following core networking concepts:
 
 **AI tools were used in this project for the following purposes:**
 
-- **Documentation Structure**: AI (GitHub Copilot, ChatGPT) was used to organize and structure the comprehensive networking documentation found in the `/docs` folder
-- **Concept Explanations**: AI assisted in creating clear, beginner-friendly explanations of complex networking concepts (OSI model, TCP/UDP, routing)
-- **Markdown Formatting**: AI helped format documentation with proper markdown syntax, tables, and navigation links
-- **README Creation**: AI assisted in drafting this README to meet 42 curriculum requirements
+used AI tools mainly as helpers to extract *Wisdom* from videos and find the best resources to support my learning. AI also gave a hand in structuring the docs and making explanations a bit clearer, but it wasn’t doing the thinking for me.
 
-**Parts completed without AI:**
-
-- **Network Configurations**: All 10 level configurations (level1.json - level10.json) were solved manually by understanding and applying networking principles
-- **Problem Solving**: Each network topology puzzle was analyzed and configured independently
-- **Technical Learning**: Core networking concepts were learned through hands-on practice and referenced materials
-
+Everything else solving the network configurations, drawing my own diagrams, asking questions to peers, Googling, reading, and really understanding the concepts was all done by me.
 ---
 
 ## 📖 Documentation
