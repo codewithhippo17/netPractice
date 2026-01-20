@@ -1,4 +1,4 @@
-*This project has been created as part of the 42 curriculum by codewithhippo17.*
+*This project has been created as part of the 42 curriculum by ehamza.*
 
 ## Description
 
@@ -9,30 +9,29 @@ This project provides a browser-based training interface where you configure net
 By completing this project, you'll gain practical understanding of how data flows through networks, how devices communicate within and across networks, and how network engineers design and troubleshoot IP networks.
 
 ---
-Instructions
-Running the Interface
 
-Open index.html in your web browser.
+## Instructions
 
-Complete levels 1–10 by configuring network parameters (IP addresses, subnet masks, routes).
+### Running the Training Interface
 
-Exporting Configurations
+1. Download or clone the netPractice training interface (typically provided by 42)
+2. Open the `index.html` file in your web browser
+3. Navigate through levels 1-10, configuring network settings as required
+4. Each level presents a network diagram with configurable fields (IP addresses, subnet masks, routes)
 
-After each level, click “Get my config” to export the configuration.
+### Exporting Configurations
 
-Save each file as levelX.json (X = 1–10).
+1. After successfully completing each level, **export** the configuration
+2. Save the exported JSON file with the naming format: `levelX.json` (where X = 1 to 10)
+3. Place all exported configuration files in the root of your Git repository
 
-Place all JSON files at the root of your repository.
+### Submission Requirements
 
-Submission
-
-✅ Complete all 10 levels
-
-✅ Include 10 exported JSON files (level1.json → level10.json) in the repo root
-
-✅ Include this README.md
-
-✅ Push everything to your Git repository
+- ✅ Complete all 10 levels
+- ✅ Export 10 configuration files: `level1.json`, `level2.json`, ..., `level10.json`
+- ✅ Place all configuration files at the **repository root**
+- ✅ Include this README.md with proper documentation
+- ✅ Push everything to your Git repository for evaluation
 
 **Files required at repository root:**
 ```
@@ -79,7 +78,9 @@ This project covers the following core networking concepts:
 - [IPv4 Subnetting - Cisco Documentation](https://www.cisco.com/c/en/us/support/docs/ip/routing-information-protocol-rip/13788-3.html)
 
 ### AI tools were used in this project for the following purposes:
+
 used AI tools mainly as helpers to extract *Wisdom* from videos and find the best resources to support my learning. AI also gave a hand in structuring the docs and making explanations a bit clearer, but it wasn’t doing the thinking for me. Everything else solving the network configurations, drawing my own diagrams, asking questions to peers, Googling, reading, and really understanding the concepts was all done by me.
+
 ---
 
 ## 📖 Documentation
