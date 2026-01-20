@@ -29,7 +29,7 @@ The **router**, also called the **default gateway**, forwards traffic that leave
 
 Through **NAT (masquerading)**, the router replaces the devices’ private IPs with its public IP when sending traffic to the internet. Responses return to the router, which then delivers them to the correct device. Most of the router’s configuration is handled by the **ISP**, keeping the process simple for the user.
 
-![Network Basics](attchements/NetBasics.png)
+![Packet Anatomy](attchements/netBasics.png)
 
 #### VLANs (Virtual Local Area Networks)
 
@@ -108,7 +108,7 @@ The[Presentation Layer](https://www.geeksforgeeks.org/computer-networks/presenta
 ### 4. Inside a Network Packet
 In this diagram, I explain the anatomy of network packets by breaking down how data is encapsulated as it moves through the network stack, showing the role of headers, addresses, flags, and control fields at each layer, and how switches and routers use this information to forward, filter, or discard packets during transmission.
 
-![Packet Anatomy](attchements/netBasics.png)
+![Network Basics](attchements/NetBasics.png)
 
 - #### Why use TCP over UDP
 ou use TCP over UDP when your application requires a reliable communication channel on top of the unreliable underlying network, because unlike UDP which ignores lost or out-of-order data, TCP guarantees that packets arrive and are reassembled in the correct sequence through a system of acknowledgments and sequence numbers
