@@ -53,7 +53,7 @@ When we transfer information from one device to another, it travels through 7 la
 - ****Data Link Layer:**** Packets are framed and sent to the next device.
 - ****Physical Layer:**** Frames are converted into bits and transmitted physically.
 
-![OSI Flow](attchements/osiFlow.png)
+![OSI Flow](attchements/OSI-model-8.webp)
 
 ---
 ### 1. Application Layer
