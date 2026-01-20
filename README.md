@@ -77,10 +77,7 @@ This project covers the following core networking concepts:
 - [Subnet Mask Calculator](https://www.calculator.net/ip-subnet-calculator.html)
 - [IPv4 Subnetting - Cisco Documentation](https://www.cisco.com/c/en/us/support/docs/ip/routing-information-protocol-rip/13788-3.html)
 
-### AI Usage Disclosure
-
-**AI tools were used in this project for the following purposes:**
-
+### AI tools were used in this project for the following purposes:
 used AI tools mainly as helpers to extract *Wisdom* from videos and find the best resources to support my learning. AI also gave a hand in structuring the docs and making explanations a bit clearer, but it wasn’t doing the thinking for me. Everything else solving the network configurations, drawing my own diagrams, asking questions to peers, Googling, reading, and really understanding the concepts was all done by me.
 ---
 
