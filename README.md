@@ -143,8 +143,4 @@ This repository includes comprehensive documentation on networking fundamentals.
 
 ---
 
-## 🚀 Getting Started
-
-Start your networking journey by exploring the topics in order, or jump directly to any concept you'd like to learn more about. Each page includes navigation links to help you move through the documentation seamlessly.
-
 Happy Learning! 📖✨
